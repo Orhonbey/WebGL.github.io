@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | WebGl</title>
+    <title>Unity WebGL Player | UnityWebSockets</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -22,20 +22,20 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">WebGl</div>
+        <div id="unity-build-title">UnityWebSockets</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/WebGL.github.io.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL.github.io.data.unityweb",
-        frameworkUrl: buildUrl + "/WebGL.github.io.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebGL.github.io.wasm.unityweb",
+        dataUrl: buildUrl + "/WebGL.github.io.data.gz",
+        frameworkUrl: buildUrl + "/WebGL.github.io.framework.js.gz",
+        codeUrl: buildUrl + "/WebGL.github.io.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "WebGl",
-        productVersion: "0.1",
+        companyName: "gamestdio",
+        productName: "UnityWebSockets",
+        productVersion: "1.0",
       };
 
       var container = document.querySelector("#unity-container");
